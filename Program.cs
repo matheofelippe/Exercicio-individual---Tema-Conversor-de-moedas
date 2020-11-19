@@ -14,7 +14,7 @@ namespace Exercício_individual___Tema_Conversor_de_moedas
             conversor.valor = double.Parse(Console.ReadLine());
 
             Console.Write("Valor em reais: " + conversor.Reais().ToString("F2", CultureInfo.InvariantCulture)); // Escrever valor em reais que ele ira pagar
-            // ao executar o código, tem que colocar vírgula ao invés de ponto
+            //Digitar decimais com virgula, NÃO ponto.
 
             Console.ReadKey();
         }
